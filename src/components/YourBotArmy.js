@@ -13,7 +13,7 @@ function YourBotArmy({ army, removeFromArmy }) {
                   <img
                     alt="oh no!"
                     src={bot.avatar_url}
-                    onError={(e) => e.target.src = 'http://localhost:8002/bots'}
+                    onError={(e) => e.target.src = 'https://bots-code-challenge.onrender.com/bots'}
                   />
                 </div>
                 <div className="extra content">

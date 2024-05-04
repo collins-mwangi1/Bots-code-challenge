@@ -7,7 +7,7 @@ function BotsPage() {
   const [army, setArmy] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8002/bots")
+    fetch("https://bots-code-challenge.onrender.com/bots")
       .then((response) => response.json())
       .then((data) => setBots(data))
       .catch((error) => console.error("Error fetching bots:", error));
